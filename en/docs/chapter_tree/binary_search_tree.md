@@ -1,5 +1,10 @@
 # Binary search tree
-
+ - It is a type of Binary Tree in which data is organized in an ordered manner which helps in faster search and insertion of data.
+ - It satisfies the following properties:
+   - The left subtree of a node contains only node with values lesser than the node's value.
+   - The right subtree of a node contains only nodes with values greater than the node's value.
+   - The left and right subtree each must also be a binary search tree.
+     
 As shown in the figure below, a <u>binary search tree</u> satisfies the following conditions.
 
 1. For the root node, the value of all nodes in the left subtree $<$ the value of the root node $<$ the value of all nodes in the right subtree.
